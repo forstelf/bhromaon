@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    margin: 0;
+}
+
+.section1 {
+    background: url('./backimg/Image.svg') no-repeat;
+    height: 820px;
+    width: auto;
+}
+
+.form {
+    display: inline-block;
+    /* border: 2px solid white; */
+    
+}
+
+input[type=text] {
+    width: 500px;
+    height: 60px;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    /* border: 2px solid white; */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type=submit] {
+    width: 150px;
+    height: 60px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    /* margin: 8px 0; */
+    /* border: none; */
+    /* border: 2px solid white; */
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
