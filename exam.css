@@ -66,3 +66,75 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #2b3c85;
 }
+
+.section2 {
+    background: url('./backimg/Rectangle_7.svg') no-repeat;
+    height: 685px;
+    width: auto
+}
+
+div.us {
+    width: 530px;
+    height: 146px;
+}
+
+.img {
+    margin: 0 auto;
+    /* Выравнивание блока по центру */
+    width: 640px;
+    /* Ширина блока */
+    line-height: 1px;
+    /* Межстрочное расстояние */
+}
+
+section .rightimg {
+    float: right;
+    margin: 7px 0 7px 7px;
+}
+
+.section4 {
+    background: url('./backimg/Rectangle_414.svg') no-repeat;
+    height: 700px;
+    width: auto
+}
+
+div.spain1 {
+    height: 371px;
+    width: 540px;
+    background-color: #232323;
+    opacity: 0.9;
+    color: #fff;
+    padding: 10px;
+}
+
+.section5 {
+    background: url('./backimg/Rectangle_4141.svg') no-repeat;
+    height: 700px;
+    width: auto
+}
+
+div.spain2 {
+    height: 371px;
+    width: 540px;
+    background-color: #232323;
+    opacity: 0.9;
+    color: #fff;
+    padding: 10px;
+}
+
+.section6 {
+    background: url('./backimg/Rectangle_4142.svg') no-repeat;
+    height: 731px;
+    width: auto
+}
+
+img.sumon {
+    width: 445px;
+    height: 284px;
+}
+
+div.sumon {
+    width: 665px;
+    height: 284px;
+    background-color: #333333;
+}
