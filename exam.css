@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 body {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    background-size: 100%;
 }
 
 section.section1 {
     background: url('./backimg/Image.svg') no-repeat;
-    background-size: 100%;
     height: 820px;
-    /* width: auto; */ 
 }
 
 div.box {
@@ -23,13 +21,23 @@ h1 {
     color: #ffffff;
     font-family: "Josefin Sans";
     font-size: 48px;
-    /* font-weight: 700px; */
     line-height: 26px;
     text-transform: uppercase;
     letter-spacing: 4.8px;
 }
 
-p.section2 {
+h2 {
+    margin: 0;
+    width: 258px;
+    height: 33px;
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+p.s--n1 {
     text-align: center;
     color: #ffffff;
     font-family: "Josefin Sans";
@@ -40,16 +48,13 @@ p.section2 {
 }
 
 form.form {
-    display: inline-block;
-    /* border: 2px solid white; */
+    display: inherit;
 }
 
 input[type=text] {
     width: 500px;
     height: 60px;
     padding: 12px 20px;
-    /* margin: 8px 0; */
-    /* border: 2px solid white; */
     box-sizing: border-box;
     text-align: center;
 }
@@ -60,9 +65,6 @@ input[type=submit] {
     background-color: #5474fd;
     color: white;
     padding: 14px 20px;
-    /* margin: 8px 0; */
-    /* border: none; */
-    /* border: 2px solid white; */
     cursor: pointer;
 }
 
@@ -72,9 +74,7 @@ input[type=submit]:hover {
 
 .section2 {
     background: url('./backimg/Rectangle_7.svg') no-repeat;
-    background-size: 100%;
     height: 685px;
-    /* width: auto; */
 }
 
 div.us {
@@ -100,9 +100,7 @@ div.rightimg {
 
 .section4 {
     background: url('./backimg/Rectangle_414.svg') no-repeat;
-    background-size: 100%;
     height: 700px;
-    /* width: auto; */
 }
 
 div.spain1 {
@@ -116,9 +114,7 @@ div.spain1 {
 
 .section5 {
     background: url('./backimg/Rectangle_4141.svg') no-repeat;
-    background-size: 100%;
     height: 700px;
-    /* width: auto; */
 }
 
 div.spain2 {
@@ -134,9 +130,7 @@ div.spain2 {
 
 .section6 {
     background: url('./backimg/Rectangle_4142.svg') no-repeat;
-    background-size: 100%;
     height: 731px;
-    /* width: auto; */
 }
 
 img.sumon {
