@@ -9,6 +9,12 @@ section.section1 {
     height: 820px;
 }
 
+.menu {
+    width: 1770px;
+    height: 80px;
+    background-color: #5474fd;
+}
+
 div.box {
     display: flex;
     align-items: center;
@@ -98,6 +104,12 @@ div.rightimg {
     margin: 7px 0 7px 7px;
 }
 
+.section3 {
+    width: 1770px;
+    height: 268px;
+    background-color: #232323;
+}
+
 .section4 {
     background: url('./backimg/Rectangle_414.svg') no-repeat;
     height: 700px;
@@ -142,4 +154,14 @@ div.sumon {
     width: 665px;
     height: 284px;
     background-color: #333333;
+}
+
+.block {
+    display: flex;
+}
+
+footer {
+    width: 1770px;
+    height: 268px;
+    background-color: #232323;
 }
